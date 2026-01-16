@@ -1,0 +1,29 @@
+{
+    "SpellboundSea": {
+        "Title": "Songs of the Spellbound Sea",
+        "BloodragerDiscipline": "Bloodrager Discipline",
+        "DebonairDeed": "Debonair Deed",
+        "MysticSong": "Mystic Song",
+        "TrickOfTheTrade": "Trick of the Trade",
+        "Flintlock": {
+            "Label": "Flintlock",
+            "Abbreviation": "fli"
+        },
+        "Matchlock": {
+            "Label": "Matchlock",
+            "Abbreviation": "mat"
+        },
+        "Ferromancy": {
+            "Label": "Ferromancy",
+            "Abbreviation": "Fe"
+        },
+        "StormSpell": {
+            "Label": "Storm Spell",
+            "Abbreviation": "St"
+        },
+        "WildMagic": {
+            "Label": "Wild Magic",
+            "Abbreviation": "Wi"
+        }
+    }
+}

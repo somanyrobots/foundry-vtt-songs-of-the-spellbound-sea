@@ -1,0 +1,7 @@
+2026/01/15-16:05:04.300 74c4 Recovering log #73
+2026/01/15-16:05:04.307 74c4 Delete type=0 #73
+2026/01/15-16:05:04.307 74c4 Delete type=3 #71
+2026/01/15-16:07:05.675 55ac Level-0 table #78: started
+2026/01/15-16:07:05.675 55ac Level-0 table #78: 0 bytes OK
+2026/01/15-16:07:05.678 55ac Delete type=0 #76
+2026/01/15-16:07:05.684 55ac Manual compaction at level-0 from '!actors!CzcxWKWSGhZlVm68' @ 72057594037927935 : 1 .. '!actors.items!w4O8fHuOow5740n2.IlMd01Ti6mrWB4HT' @ 0 : 0; will stop at (end)

@@ -1,51 +1,307 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
-  "version": "#{VERSION}#",
-  "library": "false",
-  "manifestPlusVersion": "1.2.0",
-  "compatibility": {
-    "minimum": 10,
-    "verified": 10,
-    "maximum": 11
+  "id": "songs-of-the-spellbound-sea",
+  "title": "Songs of the Spellbound Sea",
+  "description": "Explore the Spellbound Sea with naval combat and ocean travel rules, 3 new classes, 30+ subclasses, 100s of spells, and more!",
+  "version": "0.8.5",
+	"compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "relationships": {
+      "systems": [
+          {
+              "id": "dnd5e",
+              "type": "system",
+              "compatibility": {
+                  "minimum": "5.1",
+                  "verified": "5.1"
+              }
+          }
+      ]
+  },
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "flags": {
+    "dnd5e": {
+      "sourceBooks": {
+        "Spellbound Sea": "Songs of the Spellbound Sea"
+      },
+      "spellLists": [
+        "Compendium.songs-of-the-spellbound-sea.sbs-spell-lists.JournalEntry.wZg9QbNSBgq3pf9L.JournalEntryPage.nt1PjM8BTFfls48n",
+        "Compendium.songs-of-the-spellbound-sea.sbs-spell-lists.JournalEntry.wZg9QbNSBgq3pf9L.JournalEntryPage.KGPmPRQGxA5vE6xX",
+        "Compendium.songs-of-the-spellbound-sea.sbs-spell-lists.JournalEntry.wZg9QbNSBgq3pf9L.JournalEntryPage.9VaMtZ8FRTRp0E9B",
+        "Compendium.songs-of-the-spellbound-sea.sbs-spell-lists.JournalEntry.wZg9QbNSBgq3pf9L.JournalEntryPage.PgnNuvRSK6ygNiWa",
+        "Compendium.songs-of-the-spellbound-sea.sbs-spell-lists.JournalEntry.wZg9QbNSBgq3pf9L.JournalEntryPage.YsQmLkgQpspGoMo4",
+        "Compendium.songs-of-the-spellbound-sea.sbs-spell-lists.JournalEntry.wZg9QbNSBgq3pf9L.JournalEntryPage.KWdBxDlTfL7ZJ1Un",
+        "Compendium.songs-of-the-spellbound-sea.sbs-spell-lists.JournalEntry.wZg9QbNSBgq3pf9L.JournalEntryPage.oN7fNFjD4pLae0nF",
+        "Compendium.songs-of-the-spellbound-sea.sbs-spell-lists.JournalEntry.wZg9QbNSBgq3pf9L.JournalEntryPage.5DCCcddSleuWXgK8",
+        "Compendium.songs-of-the-spellbound-sea.sbs-spell-lists.JournalEntry.wZg9QbNSBgq3pf9L.JournalEntryPage.JTJstfkdoagxOSL2",
+        "Compendium.songs-of-the-spellbound-sea.sbs-spell-lists.JournalEntry.wZg9QbNSBgq3pf9L.JournalEntryPage.F5WSCwOBLf7eATbE",
+        "Compendium.songs-of-the-spellbound-sea.sbs-spell-lists.JournalEntry.13EHr5znH4mRAlh7.JournalEntryPage.RBtB4Kx7pabfhLCr",
+        "Compendium.songs-of-the-spellbound-sea.sbs-spell-lists.JournalEntry.13EHr5znH4mRAlh7.JournalEntryPage.GqiiVWG8p1EvLuJO",
+        "Compendium.songs-of-the-spellbound-sea.sbs-spell-lists.JournalEntry.13EHr5znH4mRAlh7.JournalEntryPage.cBWN3OedEIYQs9Y8",
+        "Compendium.songs-of-the-spellbound-sea.sbs-spell-lists.JournalEntry.13EHr5znH4mRAlh7.JournalEntryPage.PBXRUW6GyGTEIBpx"
+      ]
+    }
   },
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "somanyrobots",
+      "url": "https://www.somanyrobots.com",
+      "discord": "somanyrobots#9800",
+      "patreon": "https://www.patreon.com/somanyrobots",
+      "email": "somanyrobots@somanyrobots.com",
+      "reddit": "https://www.reddit.com/user/somanyrobots"
     }
   ],
-  "relationships": {
-    "systems": [],
-    "requires": []
-  },
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/songs-of-the-spellbound-sea/art/cover-full.jpg"
+    }
+  ],
   "esmodules": [
     "scripts/module.js"
   ],
   "scripts": [
     "scripts/lib/lib.js"
   ],
-  "styles": [
-    "styles/module.css"
-  ],
   "languages": [
     {
       "lang": "en",
       "name": "English",
-      "path": "languages/en.json"
+      "path": "lang/en.json"
     }
   ],
-  "url": "#{URL}#",
-  "manifest": "#{MANIFEST}#",
-  "download": "#{DOWNLOAD}#",
-  "license": "LICENSE",
-  "readme": "README.md",
-  "media": [
+  "packs": [
     {
-      "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
+      "name": "sbs-backgrounds",
+      "label": "Spellbound Sea Backgrounds",
+      "system": "dnd5e",
+      "type": "Item"
+    },
+    {
+      "name": "sbs-classes",
+      "label": "Spellbound Sea Classes",
+      "system": "dnd5e",
+      "type": "Item",
+      "flags": {
+        "dnd5e": {
+          "types": [
+            "class",
+            "subclass"
+          ]
+        }
+      }
+    },
+    {
+      "name": "sbs-features",
+      "label": "Spellbound Sea Features",
+      "system": "dnd5e",
+      "type": "Item"
+    },
+    {
+      "name": "sbs-feats",
+      "label": "Spellbound Sea Feats",
+      "system": "dnd5e",
+      "type": "Item",
+      "flags": {
+        "dnd5e": {
+          "types": [
+            "feat"
+          ]
+        }
+      }
+    },
+    {
+      "name": "sbs-species",
+      "label": "Spellbound Sea Species",
+      "system": "dnd5e",
+      "type": "Item"
+    },
+    {
+      "name": "sbs-subclasses",
+      "label": "Spellbound Sea Subclasses",
+      "system": "dnd5e",
+      "type": "Item"
+    },
+    {
+      "name": "sbs-equipment",
+      "label": "Spellbound Sea Equipment",
+      "system": "dnd5e",
+      "type": "Item"
+    },
+    {
+      "name": "sbs-magic-items",
+      "label": "Spellbound Sea Magic Items",
+      "system": "dnd5e",
+      "type": "Item"
+    },
+    {
+      "name": "sbs-spell-lists",
+      "label": "Spellbound Sea Spell Lists",
+      "system": "dnd5e",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "sbs-text",
+      "label": "Spellbound Sea Text",
+      "system": "dnd5e",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "sbs-summons",
+      "label": "Spellbound Sea Companions & Summons",
+      "system": "dnd5e",
+      "type": "Actor"
+    },
+    {
+      "name": "sbs-monsters",
+      "label": "Spellbound Sea Monsters & NPCs",
+      "system": "dnd5e",
+      "type": "Actor"
+    },
+    {
+      "name": "sbs-psionics",
+      "label": "Spellbound Sea Psionics",
+      "system": "dnd5e",
+      "type": "Item",
+      "flags": {
+        "dnd5e": {
+          "types": [
+            "spell"
+          ]
+        }
+      }
+    },
+    {
+      "name": "sbs-spell-summons",
+      "label": "Spellbound Sea Spell Summons",
+      "system": "dnd5e",
+      "type": "Actor"
+    },
+    {
+      "name": "sbs-spells-that-dont-suck",
+      "label": "Spellbound Sea Spells That Don't Suck",
+      "system": "dnd5e",
+      "type": "Item",
+      "flags": {
+        "dnd5e": {
+          "types": [
+            "spell"
+          ]
+        }
+      }
+    },
+    {
+      "name": "sbs-spells",
+      "label": "Spellbound Sea Spells",
+      "system": "dnd5e",
+      "type": "Item",
+      "flags": {
+          "dnd5e": {
+              "types": [
+                  "spell"
+              ]
+          }
+      }
+    },
+    {
+      "name": "sbs-gun-decks",
+      "label": "Spellbound Sea Gun Decks",
+      "system": "dnd5e",
+      "type": "Item"
+    },
+    {
+      "name": "sbs-officer-roles",
+      "label": "Spellbound Sea Officer Roles",
+      "system": "dnd5e",
+      "type": "Item"
+    },
+    {
+      "name": "sbs-combat-actions",
+      "label": "Spellbound Sea Ship Combat Actions",
+      "system": "dnd5e",
+      "type": "Item"
+    },
+    {
+      "name": "sbs-travel-actions",
+      "label": "Spellbound Sea Ship Travel Actions",
+      "system": "dnd5e",
+      "type": "Item"
+    },
+    {
+      "name": "sbs-ship-upgrades",
+      "label": "Spellbound Sea Ship Upgrades",
+      "system": "dnd5e",
+      "type": "Item"
+    },
+    {
+      "name": "sbs-ships",
+      "label": "Spellbound Sea Ships",
+      "system": "dnd5e",
+      "type": "Actor"
+    },
+  	{
+      "name": "adventure",
+      "label": "Songs of the Spellbound Sea",
+      "path": "packs/songs-of-the-spellbound-sea",
+  	  "system": "dnd5e",
+      "type": "Adventure"
     }
-  ]
+  ],
+  "packFolders": [{
+    "name": "Somanyrobots",
+    "sorting": "a",
+    "color": "#0ca3c8",
+    "folders": [
+      {
+        "name": "Songs of the Spellbound Sea",
+        "sorting": "a",
+        "color": "#bd8e28",
+        "packs": ["adventure"],
+        "folders": [
+          {
+            "name": "Character Features",
+            "sorting": "a",
+            "color": "#ad8125",
+            "packs": ["sbs-backgrounds", "sbs-classes", "sbs-features", "sbs-feats", "sbs-species", "sbs-subclasses"]
+          },
+          {
+            "name": "Items & Equipment",
+            "sorting": "a",
+            "color": "#ad8125",
+            "packs": ["sbs-equipment", "sbs-magic-items"]
+          },
+          {
+            "name": "Journals",
+            "sorting": "a",
+            "color": "#ad8125",
+            "packs": ["sbs-spell-lists", "sbs-text"]
+          },
+          {
+            "name": "Monsters & Stat Blocks",
+            "sorting": "a",
+            "color": "#ad8125",
+            "packs": ["sbs-summons", "sbs-monsters"]
+          },
+          {
+            "name": "Spells",
+            "sorting": "a",
+            "color": "#ad8125",
+            "packs": ["sbs-psionics", "sbs-spells-that-dont-suck", "sbs-spell-summons", "sbs-spells"]
+          },
+          {
+            "name": "The Seafarer's Manual",
+            "sorting": "a",
+            "color": "#ad8125",
+            "packs": ["sbs-gun-decks", "sbs-officer-roles", "sbs-combat-actions", "sbs-travel-actions", "sbs-ship-upgrades", "sbs-ships"]
+          }
+        ]
+      }
+    ]
+  }]
 }

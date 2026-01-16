@@ -1,0 +1,7 @@
+2026/01/15-15:40:25.993 5d2c Recovering log #69
+2026/01/15-15:40:25.998 5d2c Delete type=0 #69
+2026/01/15-15:40:25.998 5d2c Delete type=3 #67
+2026/01/15-16:04:44.603 7264 Level-0 table #74: started
+2026/01/15-16:04:44.603 7264 Level-0 table #74: 0 bytes OK
+2026/01/15-16:04:44.605 7264 Delete type=0 #72
+2026/01/15-16:04:44.609 7264 Manual compaction at level-0 from '!items!A86JBmkPJGaazqF5' @ 72057594037927935 : 1 .. '!items!ip6CjHPu4WC68W54' @ 0 : 0; will stop at (end)
