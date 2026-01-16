@@ -2,7 +2,7 @@
   "id": "songs-of-the-spellbound-sea",
   "title": "Songs of the Spellbound Sea",
   "description": "Explore the Spellbound Sea with naval combat and ocean travel rules, 3 new classes, 30+ subclasses, 100s of spells, and more!",
-  "version": "0.8.5",
+  "version": "0.9.0",
 	"compatibility": {
     "minimum": "13",
     "verified": "13"
