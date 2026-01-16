@@ -1,0 +1,3 @@
+This is the official Foundry VTT module for [Songs of the Spellbound Sea](https://www.somanyrobots.com/store/p/spellbound-sea). For the time being, you can install directly via the manifest link at https://github.com/somanyrobots/foundry-vtt-songs-of-the-spellbound-sea/releases/latest/download/module.json. (Note the manifest linked directly from the code repository won't work; there's some processing that happens to it during releases.)
+
+To discuss the module, the project, or other 5E content, join us on [Discord](https://discord.gg/6p6DqCxTTw). You can support somanyrobots on [Patreon](https://www.patreon.com/somanyrobots).
